@@ -7,6 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
+
  /* changed .header to #header */
 #header {
     padding: 20px;
@@ -90,27 +91,27 @@ p {
     background-color: #2589bd;
 }
 
-/* I combined these elements together so there is no repeating code */
-#benefit-lead, #benefit-brand, #benefit-cost {
+/* combined to a single class */
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* I combined these elements together so there is no repeating code */
-#benefit-lead h3, #benefit-brand h3, #benefit-cost h3 {
+/* combined to a single class */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* I combined these elements together so there is no repeating code */
-#benefit-lead img, #benefit-brand img, #benefit-cost img {
+/* combined to a single class */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* I combined these elements together so there is no repeating code */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* combined to a single class */
+.main-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,13 +120,13 @@ p {
     color: #ffffff;
 }
 
-/* I combined these elements together so there is no repeating code */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+/* combined to a single class */
+.main-content img {
     max-height: 200px;
 }
 
-/* I combined these elements together so there is no repeating code */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+/* combined to a single class */
+.main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
