@@ -4,11 +4,11 @@
 
 Refactored website to meet the following accessibility standards:
 
--Source code has semantic HTML elements
--HTML follows logical structure independent of styling and positioning
--All images now have alt attributes
--Heading attributes fall in sequential order
--Title element is concise and descriptive
+* Source code has semantic HTML elements
+* HTML follows logical structure independent of styling and positioning
+* All images now have alt attributes
+* Heading attributes fall in sequential order
+* Title element is concise and descriptive
 
 This will optimize the webiste for search engines.
 
